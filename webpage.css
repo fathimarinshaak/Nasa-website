@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+html{
+    margin: 0;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/nasa.jpg");
+    background-repeat: round;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(37, 21, 2);
+    height: 13vh;
+    width: 100%;
+    color: blanchedalmond;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+
+.card1{
+    width: calc(100%/3);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card2{
+    width: calc(100%/4);
+    display: flex;
+    justify-content: center;
+}
+
+.card3{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.explore,.newsevents,.multimedia{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    width: auto;
+}
+
+.live{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.liv{
+    padding: 5px;
+    font-size: small;
+    border: red 1px solid;
+    border-radius: 5px;
+}
+
+.liv:hover{
+    background-color: red;
+}
+
+input{
+    height: 30px ;
+    background-color: rgb(37, 21, 2);
+    border: burlywood 1px solid;
+    color: antiquewhite;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: auto;
+}
+
+.dropdowns{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.explore:active,.newsevents:active,.multimedia:active,.live:active{
+    border: 2px solid burlywood ;
+
+}
+
+
+.center{
+    height: 75vh;
+    width: 50%;
+    color: blanchedalmond;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.heading{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.para{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.button{
+    font-size: 20px;
+    font-weight: bold;
+    height: fit-content;
+    width: fit-content;
+    padding: 9px;
+    border-radius: 10px;
+    background-color: rgb(209, 113, 57);
+}
+
+.button:hover{
+    background-color: rgb(112, 50, 14);
+}
+
+
+
+.bottom{
+    padding: 0 40px 0 40px;
+    height: calc(100vh-13vh-60vh);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: blanchedalmond;
+}
+
+.name{
+    font-size: small;
+}
+
+.links{
+    font-weight: bold;
+}
+
+.links i{
+    color: rgb(209, 113, 57);
+}
+
+.links i:hover{
+    color: rgb(112, 50, 14);
+}
+
+.card{
+    width: calc(100%/4);
+    border-top: 1px solid ;
+}
+
+.carddd{
+    width: calc(100%/4);
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.icoon{
+    border: solid blanchedalmond 2px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+
+.pause i{
+    font-size: 50px;
+}
+
+.pause i:active{
+    color: rgb(209, 113, 57);
+}
+
+.icoon:active{
+    border: rgb(209, 113, 57);
+}
